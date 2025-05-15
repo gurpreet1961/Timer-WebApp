@@ -1,12 +1,52 @@
-# React + Vite
+# ⏲️ Timer WebApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive timer management web application built with **React 19** and **Vite**. Create, categorize, and manage multiple timers with ease. Timers are persisted in your browser and feature start, pause, reset, and progress visualization.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Demo
 
-## Expanding the ESLint configuration
+Try it live: [https://timer-web-app-xi.vercel.app/](https://timer-web-app-xi.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- ⚛️ Built with React 19 and Vite for blazing-fast development
+- ⏳ Create multiple named timers with custom durations and categories
+- 🗂️ Organize timers by category (Work, Exercise, Study, Break, Meditation, Other)
+- 💾 Timers are saved in your browser's local storage
+- 🟢 Start, pause, reset individual or all timers
+- 🕒 Visual progress with circular progress bars
+- 🎨 Responsive, modern UI
+- 🧹 ESLint for code quality
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14+)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/timer-webapp.git
+cd timer-webapp
+npm install
+# or
+yarn install
+
+```
+
+### Running Application
+
+npm run dev
+
+# or
+
+yarn dev
+
+Open http://localhost:5173 in your browser.
